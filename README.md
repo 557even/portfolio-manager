@@ -4,8 +4,6 @@ Automated Daily Brief for Stock Trading with Sentiment Analysis
 
 This project aims to build a system that fetches financial data and news, analyzes sentiment using GPT-based models, and generates a concise morning briefing alongside automated trading signals. The repository will host data ingestion utilities, sentiment analysis tools, summary generation code, and robo-investing strategies.
 
-Detailed steps for implementing these features can be found in the [project roadmap](docs/ROADMAP.md).
-
 ## Project Structure
 
 ```
