@@ -1,15 +1,19 @@
 # Portfolio Manager
 
-Automated Daily Brief for Stock Trading with Sentiment Analysis
+A research project blending the market coverage of **Bloomberg** with the community insights of **Seeking Alpha**. The goal is to create a personal analytics and trading platform that aggregates real-time market data, performs sentiment analysis on news and transcripts, and produces concise portfolio reports with automated trade suggestions.
 
-This project aims to build a system that fetches financial data and news, analyzes sentiment using GPT-based models, and generates a concise morning briefing alongside automated trading signals. The repository will host data ingestion utilities, sentiment analysis tools, summary generation code, and robo-investing strategies.
+## Overview
+
+The application collects data from multiple financial APIs, analyzes sentiment using GPT-based models, and surfaces trading signals. The project is organized into small modules so that each feature can evolve independently.
 
 ## Project Structure
 
 ```
-src/portfolio_manager/        - Core application modules
-├── data_ingestion/           - Fetch market data, news, and transcripts
+src/portfolio_manager/        - Core application packages
+├── data_ingestion/           - Download market data, news, and transcripts
+├── market_data/              - Real-time price and fundamentals interface
 ├── sentiment/                - Sentiment analysis utilities
+├── analysis/                 - Quantitative portfolio analytics
 ├── reports/                  - Morning summary generation
 ├── trading/                  - Robo-investing logic
 tests/                        - Unit and integration tests
